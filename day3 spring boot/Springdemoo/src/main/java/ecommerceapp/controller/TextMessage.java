@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
  *   It converts the response to JSON or XML.*/
 
 @RestController
-public class MessageApi {
+public class TextMessage {
 	// GET
 	@GetMapping(value = "/showmessage") // this is called point
 	String displayMessage() {
